@@ -28,7 +28,7 @@ int main(){
             getchar();
         }
     } 
-    else{
+    else{    //父进程
         close(fd[0]);
         write(fd[1],"hahaha...",12);
     }
